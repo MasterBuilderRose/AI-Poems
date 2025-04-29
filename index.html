@@ -7,34 +7,41 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header><h1>Welcome to the AI Spanish Poem Generator</h1></header>
+    <div class="container">
+      <header><h1>Welcome to the AI Spanish Poem Generator</h1></header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the Spanish Poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>The Poem Will Go Here</div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the Spanish Poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
 
-    <footer>
-      <p>
-        Coded by
-        <a href="https://github.com/MasterBuilderRose" target="_blank"
-          >FullStackRose</a
-        >, is open-sourced on<a href="https://github.com" target="_blank">
-          Github</a
-        >, and hosted on
-        <a href="https://www.netlify.com/" target="_blank">Netlify</a>
-      </p>
-      <p>2025</p>
-    </footer>
+          <div>The Poem Will Go Here</div>
+        </div>
+        
+      </main>
+
+      <footer>
+        <p>
+          Coded by
+          <a href="https://github.com/MasterBuilderRose" target="_blank"
+            >FullStackRose</a
+          >, is open-sourced on<a href="https://github.com" target="_blank">
+            Github</a
+          >, and hosted on
+          <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+        </p>
+        <p>2025</p>
+      </footer>
+    </div>
     <script src="src/app.js"></script>
   </body>
 </html>
